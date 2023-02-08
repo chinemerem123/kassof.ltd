@@ -1,1 +1,111 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+}
+
+.section2 {
+  width: 100%;
+  text-align: center;
+}
+.section2 .head {
+  display: inline-block;
+  position: relative;
+}
+.section2 .head .line {
+  position: absolute;
+  width: 35px;
+  height: 3px;
+  background-color: #00a6f7;
+  border-radius: 5px;
+  top: 13px;
+  left: 140px;
+}
+.section2 .head .h5 {
+  text-align: center;
+  color: #00a6f7;
+  font-weight: 500;
+}
+.section2 .head .h2 {
+  font-family: montserrat, sans-serif;
+  color: #373e4a;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+  word-break: break-word;
+}
+.section2 .head p {
+  display: block;
+  letter-spacing: 1px;
+  font-size: 17px;
+  color: #373e4a;
+}
+
+.sub {
+  width: 96%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c8856;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.get {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00a6f7;
+  margin-top: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.section3 .card {
+  overflow: hidden;
+  position: relative;
+  border: none;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.section3 .card .header {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #1c8856;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.section3 .card .name {
+  font-weight: 600;
+  color: #373e4a;
+}
+.section3 .card .date {
+  letter-spacing: 1px;
+  color: #373e4a;
+}
+.section3 .card .price {
+  font-weight: 700;
+  color: #1c8856;
+}
+.section3 .card img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.rower {
+  border-bottom: 1px solid rgb(236, 236, 236);
+}/*# sourceMappingURL=style.css.map */
