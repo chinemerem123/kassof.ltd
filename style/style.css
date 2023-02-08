@@ -74,6 +74,7 @@ body {
 }
 
 .section3 .card {
+  transform: scale(0.9);
   overflow: hidden;
   position: relative;
   border: none;
